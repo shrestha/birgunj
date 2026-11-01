@@ -32,6 +32,9 @@ body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px}
 .wrap{max-width:1240px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
 header{display:flex;flex-direction:column;gap:8px}
+.home-link{align-self:flex-start;color:var(--accent);font-weight:600;text-decoration:none}
+.home-link:hover{text-decoration:underline}
+.home-link:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .eyebrow{font-family:var(--f-display);font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-size:15px}
 h1{font-family:var(--f-display);font-weight:700;font-size:clamp(34px,5vw,56px);line-height:1;margin:0;text-wrap:balance}
 .lede{max-width:68ch;color:var(--muted);margin:0;font-size:17px}
@@ -112,6 +115,7 @@ footer{color:var(--muted);font-size:14px;max-width:80ch;border-top:1px solid var
 
 <div class="wrap">
   <header>
+    <a class="home-link" href="index.html">← Back to index</a>
     <div class="eyebrow">Birgunj Main Road, Market Section · 30 m Option C</div>
     <h1>Birgunj Main Road, Option C</h1>
     <p class="lede">A complete, working street inside a 30-metre right-of-way: buses, cars, motorcycles, bicycles, rickshaws and people on foot each get their own space, with a line of shade trees on both sides. Drag to look around the 3D model, pick a view below, or turn on <b>Today's shopfronts</b> to see how much land each frontage gives up.</p>
@@ -198,7 +202,7 @@ footer{color:var(--muted);font-size:14px;max-width:80ch;border-top:1px solid var
     </div>
   </section>
 
-  <footer>Concept visualisation for public discussion, not a construction drawing. The 3D model shows a typical 120 m block with one bus stop (the opposite stop is staggered beyond this block), a raised pedestrian crossing and a side street. Buildings, people, vehicles and kerb heights are illustrative, and trees are shown as Rajbriksha (Cassia fistula) in early-summer bloom. The 1.50 m setback lies outside the 30 m right-of-way, on private frontage kept open under building by-laws. Kerb-side drop-off and loading bays are not shown in this block; they follow the bus-bay layout. Today's shopfronts are shown 8.5 m from the centreline, from the average building-to-building width of 17.0 m measured on Google Maps. Compare with the <a href="https://claude.ai/artifact/TWEtCcGN4RkSBhr96qsjTj" target="_blank" rel="noopener">25 m Option model</a>. <b>Design: Texas Engineering &amp; Surveying, Inc. (TES), 2026</b>, prepared pro bono for the residents of Birgunj Main Road. The street trees, furniture, planting, people, vehicles and shop-houses in this model were built for this project.</footer>
+  <footer>Concept visualisation for public discussion, not a construction drawing. The 3D model shows a typical 120 m block with one bus stop (the opposite stop is staggered beyond this block), a raised pedestrian crossing and a side street. Buildings, people, vehicles and kerb heights are illustrative, and trees are shown as Rajbriksha (Cassia fistula) in early-summer bloom. The 1.50 m setback lies outside the 30 m right-of-way, on private frontage kept open under building by-laws. Kerb-side drop-off and loading bays are not shown in this block; they follow the bus-bay layout. Today's shopfronts are shown 8.5 m from the centreline, from the average building-to-building width of 17.0 m measured on Google Maps. Compare with the <a href="Birgunj-Main-Road-25-m.html" target="_blank" rel="noopener">25 m Option model</a>. <b>Design: Texas Engineering &amp; Surveying, Inc. (TES), 2026</b>, prepared pro bono for the residents of Birgunj Main Road. The street trees, furniture, planting, people, vehicles and shop-houses in this model were built for this project.</footer>
 </div>
 
 <script>/* three.js r147 (MIT) bundled inline: three.min.js */
